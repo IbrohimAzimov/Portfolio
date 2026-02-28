@@ -436,3 +436,28 @@ ul li a:hover {
     box-shadow: 5px 10px 10px aqua;
     transform: skew(-10deg);
 }
+
+/* container 2 */
+.container2 {
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    background: #010811;
+    margin-top: 100px;
+}
+
+.container2 .item1 .title {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.container2 .item1 .p {
+    color: #ffffffdc;
+    font-size: 16px;
+    margin-top: 30px;
+    font-weight: 600;
+}
